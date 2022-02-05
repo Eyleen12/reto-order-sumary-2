@@ -1,0 +1,93 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+.tarjeta {
+  border: 1px;
+  border-radius: 15px;
+  width: 360px;
+  height: 550px;
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+}
+.imagen-hero img {
+  width: 100%;
+}
+h2,
+b {
+  color: hsl(223, 47%, 23%);
+}
+#contenido {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+}
+.plan {
+  border: 1px;
+  border-radius: 15px;
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-between;
+  height: 45px;
+  width: 250px;
+  background-color: hsl(225, 100%, 98%);
+}
+.plan .music {
+  gap: 1rem;
+}
+.plan .derecha,
+.plan .music {
+  display: inherit;
+  align-items: center;
+}
+.derecha {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tarjeta-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  padding: auto 15px;
+}
+.pago {
+  border: 1px;
+  border-radius: 10px;
+  margin: auto;
+  height: 40px;
+  width: 100%;
+  display: inherit;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cancel {
+  cursor: pointer;
+}
+
+.pago:hover {
+  opacity: 0.5;
+}
+.derecha:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
